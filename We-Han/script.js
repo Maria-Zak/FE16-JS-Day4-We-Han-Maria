@@ -16,3 +16,5 @@ function printFullName() {
   document.getElementById("age1").addEventListener("input", printFullName);
 
 document.getElementById("btn").addEventListener("click", printFullName);
+
+
