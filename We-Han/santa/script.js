@@ -6,7 +6,7 @@ function remove(){
 }
 let santa=document.getElementsByClassName("santa");
 
-for(let i=0; i<santa.length;1++){
+for(let i=0; i<santa.length;i++){
     santa[i].addEventListener("click", remove);
 }
 // }
