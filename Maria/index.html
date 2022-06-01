@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <label for="firstName">First Name</label><br>
+        <input type="text" placeholder="firstName" id="fname"><br>
+        <label for="lastName">Last Name</label><br>
+        <input type="text" placeholder="lastName" id="lname"><br>
+        <label for="age">Age</label><br>
+        <input type="number" placeholder="age" id="age"><br>
+
+        <label for="job">Choose your field:</label><br>
+        <select name="jobs" id="jobs" form="jobs">
+            <option value="it" id="it">IT</option>
+            <option value="hospitality">Hospitality</option>  
+        </select><br>
+        <input type="submit" id="btn">
+    </div>
+    <div id="result"></div>
+
+    <p id="field"></p>
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
